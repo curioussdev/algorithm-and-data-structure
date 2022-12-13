@@ -39,13 +39,50 @@ function Stack() {
 }
 var pilha = new Stack()
 
+
+// testando
+/* 
 pilha.push(2)
 pilha.push(4)
 pilha.push(6)
 pilha.push(8)
 pilha.push(10)
+*/
 
 //pilha.clear()
 
 //console.log(pilha.isEmpty())
+//pilha.print()
+
+/*
+
+console.log(pilha.isEmpty())
+pilha.push(5)
 pilha.print()
+pilha.push(8)
+pilha.print()
+pilha.push(11)
+pilha.print()
+pilha.push(15)
+pilha.print()
+pilha.push(19)
+pilha.print()
+pilha.push(23)
+pilha.print()
+
+
+pilha.pop()
+pilha.print()
+pilha.pop()
+pilha.print()
+pilha.pop()
+pilha.print()
+pilha.pop()
+pilha.print()
+pilha.pop()
+pilha.print()
+pilha.pop()
+pilha.print()
+
+console.log(pilha.isEmpty())
+*/
