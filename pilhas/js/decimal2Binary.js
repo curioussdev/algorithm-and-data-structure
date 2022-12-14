@@ -15,4 +15,4 @@ function dec2Bin(decNumber){
     }
     return binaryString
 }
-console.log(dec2Bin(10))
+console.log(dec2Bin(50))
