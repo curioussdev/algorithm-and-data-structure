@@ -11,7 +11,8 @@ function baseConverter(decNumber, base) {
     }
 
     while(restStack.length > 0) {
-        baseString +=digits[restStack.pop()]
+        baseString += digits[restStack.pop()]
     }
     return baseString;
 }
+console.log(baseConverter(50, 8));
