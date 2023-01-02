@@ -15,4 +15,8 @@ function baseConverter(decNumber, base) {
     }
     return baseString;
 }
-console.log(baseConverter(50, 8));
+console.log(baseConverter(123, 8));
+
+// 123 is the decimal number
+
+// 8 is the base to be converted, in caso octal base
