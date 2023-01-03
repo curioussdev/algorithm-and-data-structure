@@ -7,7 +7,7 @@ function queue(){
     }
 
     this.dequeue = function(){
-        // remove um item pela frente
+        // remove um item pela frente (primeiro elemento)
         return items.shift()
     }
 
@@ -31,3 +31,19 @@ function queue(){
         console.log(items.toString())
     }
 }
+
+var fila = new queue()
+
+fila.enqueue('Jose')
+fila.enqueue('Frank')
+fila.enqueue('Maria')
+
+console.log(fila.front() )
+
+fila.print()
+
+fila.dequeue()
+fila.print()
+
+fila.dequeue()
+fila.print()
