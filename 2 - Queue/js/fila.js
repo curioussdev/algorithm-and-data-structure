@@ -1,8 +1,9 @@
 function queue(){
     var items = [];
 
-    this.enqueue = function(){
-        
+    this.enqueue = function(element){
+        // adiciona um item
+        items.push(element)
     }
 
     this.dequeue = function(){
