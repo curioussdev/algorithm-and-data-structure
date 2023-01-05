@@ -13,12 +13,12 @@ function queue(){
 
     this.front = function() {
         // retorna o primeiro elemento da fila
-        return items[0]
+        return items[0];
     }
 
     this.isEmpty = function(){
         // verifica se a fila está vazia ou não
-        return items.length === 0
+        return items.length === 0;
     }
 
     this.size = function(){
@@ -32,7 +32,7 @@ function queue(){
     }
 }
 
-var fila = new queue()
+var fila = new queue();
 
 fila.enqueue('Jose')
 fila.enqueue('Frank')
